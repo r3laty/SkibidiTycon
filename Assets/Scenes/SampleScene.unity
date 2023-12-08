@@ -1341,6 +1341,26 @@ PrefabInstance:
       propertyPath: needToSpawn
       value: 
       objectReference: {fileID: 833160064}
+    - target: {fileID: 2811557338106616516, guid: 206a4e88c6dba5e4dafe42ddc83c41cb, type: 3}
+      propertyPath: spawnButton
+      value: 
+      objectReference: {fileID: 124970236}
+    - target: {fileID: 2811557338106616516, guid: 206a4e88c6dba5e4dafe42ddc83c41cb, type: 3}
+      propertyPath: prices.Array.data[0]
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 2811557338106616516, guid: 206a4e88c6dba5e4dafe42ddc83c41cb, type: 3}
+      propertyPath: prices.Array.data[1]
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 2811557338106616516, guid: 206a4e88c6dba5e4dafe42ddc83c41cb, type: 3}
+      propertyPath: prices.Array.data[2]
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 2811557338106616516, guid: 206a4e88c6dba5e4dafe42ddc83c41cb, type: 3}
+      propertyPath: prices.Array.data[3]
+      value: 500
+      objectReference: {fileID: 0}
     - target: {fileID: 3630340239870850101, guid: 206a4e88c6dba5e4dafe42ddc83c41cb, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.22
