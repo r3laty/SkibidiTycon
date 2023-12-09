@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 3630340239870850101}
   - component: {fileID: 1445991012383558583}
   - component: {fileID: 2811557338106616516}
+  - component: {fileID: 9203614004369365842}
   m_Layer: 0
-  m_Name: Amogus
+  m_Name: RedAmogus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -98,4 +99,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   amogusPrefab: {fileID: 4315154694230719236}
-  needToSpawn: {fileID: 0}
+  spawnArea: {fileID: 0}
+  spawnButton: {fileID: 0}
+  prices: 32000000960000002c010000f4010000
+--- !u!95 &9203614004369365842
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4315154694230719236}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1f218bac4fcede647963dfebd8add52b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
