@@ -2,8 +2,10 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class FacroryController : MonoBehaviour
+public class AmogusManager : MonoBehaviour
 {
+    [HideInInspector]public int pressCount = 1;
+
     [SerializeField] private GameObject amogusPrefab;
     [SerializeField] private GameObject toiletPrefab;
 
@@ -11,7 +13,9 @@ public class FacroryController : MonoBehaviour
     [SerializeField] private Button spawnButton;
 
     [SerializeField] private int[] prices = new int[4];
+    [SerializeField] private FactoryMachine factoryMachine;
 
+    [SerializeField] private float distanceToNext = 1.2f;
 
     private Vector2 _needPosition;
     private Vector2 _currentPosition;
@@ -28,7 +32,6 @@ public class FacroryController : MonoBehaviour
     {
         _buttonRect = spawnButton.GetComponent<RectTransform>();
         _buttonText = spawnButton.GetComponentInChildren<TextMeshProUGUI>();
-
     }
     private void Start()
     {
@@ -54,19 +57,27 @@ public class FacroryController : MonoBehaviour
             spawnArea.position -= new Vector3(-newAmogusSpawnArea.x, 0, 0);
             _buttonRect.anchoredPosition -= new Vector2(_buttonRect.sizeDelta.x, 0f);
 
-            Vector3 nextToilet = new Vector3(spawnArea.position.x, spawnArea.position.y - 0.1f, 0);
-            Instantiate(toiletPrefab, nextToilet, Quaternion.identity);
-
             _priceIndex++;
+
+            pressCount++;
+            Debug.Log(pressCount + " press count");
         }
         else
         {
-            Vector3 nextToilet = new Vector3(spawnArea.position.x, spawnArea.position.y - 16, 0);
-            Instantiate(toiletPrefab, nextToilet, Quaternion.identity);
-
             Instantiate(amogusPrefab, spawnArea.position, Quaternion.identity);
+            
+            pressCount++;
 
             Destroy(spawnButton.gameObject);
+        }
+    }
+    private void SpawnToilet()
+    {
+        if (factoryMachine.wasArrived)
+        {
+            Vector3 spawntToilet = new Vector3(_currentPosition.x, _currentPosition.y - 0.1f, 0);
+            Instantiate(toiletPrefab, spawntToilet, Quaternion.identity);
+            factoryMachine.wasArrived = false;
         }
     }
 }

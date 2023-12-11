@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 5109255230886581459}
   m_Layer: 0
   m_Name: Skibidi toilet
-  m_TagString: Untagged
+  m_TagString: SkibidiToilet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -121,7 +121,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa6e799c98e9b2044960427870d968d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wasArrive: 0
   toiletPrice: 50
   speed: 22
 --- !u!50 &506969931151866487
