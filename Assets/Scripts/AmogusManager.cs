@@ -13,7 +13,6 @@ public class AmogusManager : MonoBehaviour
     [SerializeField] private Button spawnButton;
 
     [SerializeField] private int[] prices = new int[4];
-    [SerializeField] private FactoryMachine factoryMachine;
 
     [SerializeField] private float distanceToNext = 1.2f;
 
@@ -69,15 +68,6 @@ public class AmogusManager : MonoBehaviour
             pressCount++;
 
             Destroy(spawnButton.gameObject);
-        }
-    }
-    private void SpawnToilet()
-    {
-        if (factoryMachine.wasArrived)
-        {
-            Vector3 spawntToilet = new Vector3(_currentPosition.x, _currentPosition.y - 0.1f, 0);
-            Instantiate(toiletPrefab, spawntToilet, Quaternion.identity);
-            factoryMachine.wasArrived = false;
         }
     }
 }
