@@ -136,13 +136,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Amogus sprite sheet_0
+      name: AmogusRed
       rect:
         serializedVersion: 2
-        x: 8
+        x: 0
         y: 240
-        width: 16
-        height: 29
+        width: 32
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,10 +160,10 @@ TextureImporter:
       name: Amogus sprite sheet_1
       rect:
         serializedVersion: 2
-        x: 40
+        x: 32
         y: 240
-        width: 16
-        height: 30
+        width: 32
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,10 +181,10 @@ TextureImporter:
       name: Amogus sprite sheet_2
       rect:
         serializedVersion: 2
-        x: 72
+        x: 64
         y: 240
-        width: 16
-        height: 31
+        width: 32
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,10 +202,10 @@ TextureImporter:
       name: Amogus sprite sheet_3
       rect:
         serializedVersion: 2
-        x: 104
+        x: 96
         y: 240
-        width: 16
-        height: 28
+        width: 32
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -220,13 +220,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Amogus sprite sheet_4
+      name: AmogusBlue
       rect:
         serializedVersion: 2
-        x: 136
+        x: 128
         y: 240
-        width: 16
-        height: 29
+        width: 32
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,10 +244,10 @@ TextureImporter:
       name: Amogus sprite sheet_5
       rect:
         serializedVersion: 2
-        x: 168
+        x: 160
         y: 240
-        width: 16
-        height: 30
+        width: 32
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -265,10 +265,10 @@ TextureImporter:
       name: Amogus sprite sheet_6
       rect:
         serializedVersion: 2
-        x: 200
+        x: 192
         y: 240
-        width: 16
-        height: 31
+        width: 32
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -286,10 +286,10 @@ TextureImporter:
       name: Amogus sprite sheet_7
       rect:
         serializedVersion: 2
-        x: 232
+        x: 224
         y: 240
-        width: 16
-        height: 28
+        width: 32
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -307,10 +307,10 @@ TextureImporter:
       name: Amogus sprite sheet_8
       rect:
         serializedVersion: 2
-        x: 8
-        y: 144
-        width: 16
-        height: 29
+        x: 0
+        y: 192
+        width: 32
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -328,10 +328,10 @@ TextureImporter:
       name: Amogus sprite sheet_9
       rect:
         serializedVersion: 2
-        x: 40
-        y: 144
-        width: 16
-        height: 30
+        x: 32
+        y: 192
+        width: 32
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -349,10 +349,10 @@ TextureImporter:
       name: Amogus sprite sheet_10
       rect:
         serializedVersion: 2
-        x: 72
-        y: 144
-        width: 16
-        height: 31
+        x: 64
+        y: 192
+        width: 32
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -370,10 +370,10 @@ TextureImporter:
       name: Amogus sprite sheet_11
       rect:
         serializedVersion: 2
-        x: 104
-        y: 144
-        width: 16
-        height: 28
+        x: 96
+        y: 192
+        width: 32
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -391,10 +391,10 @@ TextureImporter:
       name: Amogus sprite sheet_12
       rect:
         serializedVersion: 2
-        x: 136
-        y: 143
-        width: 16
-        height: 30
+        x: 128
+        y: 192
+        width: 32
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -412,10 +412,10 @@ TextureImporter:
       name: Amogus sprite sheet_13
       rect:
         serializedVersion: 2
-        x: 168
-        y: 144
-        width: 16
-        height: 30
+        x: 160
+        y: 192
+        width: 32
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -433,10 +433,10 @@ TextureImporter:
       name: Amogus sprite sheet_14
       rect:
         serializedVersion: 2
-        x: 200
-        y: 144
-        width: 16
-        height: 31
+        x: 192
+        y: 192
+        width: 32
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -454,10 +454,10 @@ TextureImporter:
       name: Amogus sprite sheet_15
       rect:
         serializedVersion: 2
-        x: 232
-        y: 144
-        width: 16
-        height: 28
+        x: 224
+        y: 192
+        width: 32
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -472,13 +472,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Amogus sprite sheet_16
+      name: AmogusPurple
       rect:
         serializedVersion: 2
-        x: 8
-        y: 48
-        width: 16
-        height: 29
+        x: 0
+        y: 144
+        width: 32
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -496,10 +496,10 @@ TextureImporter:
       name: Amogus sprite sheet_17
       rect:
         serializedVersion: 2
-        x: 40
-        y: 48
-        width: 16
-        height: 30
+        x: 32
+        y: 144
+        width: 32
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -517,10 +517,10 @@ TextureImporter:
       name: Amogus sprite sheet_18
       rect:
         serializedVersion: 2
-        x: 72
-        y: 48
-        width: 16
-        height: 31
+        x: 64
+        y: 144
+        width: 32
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -538,10 +538,10 @@ TextureImporter:
       name: Amogus sprite sheet_19
       rect:
         serializedVersion: 2
-        x: 104
-        y: 48
-        width: 16
-        height: 28
+        x: 96
+        y: 144
+        width: 32
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -556,15 +556,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Amogus sprite sheet_20
+      name: AmogusGreen
       rect:
         serializedVersion: 2
-        x: 136
-        y: 48
-        width: 16
-        height: 29
+        x: 128
+        y: 144
+        width: 32
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -580,12 +580,12 @@ TextureImporter:
       name: Amogus sprite sheet_21
       rect:
         serializedVersion: 2
-        x: 168
-        y: 48
-        width: 16
-        height: 30
+        x: 160
+        y: 144
+        width: 32
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -601,12 +601,12 @@ TextureImporter:
       name: Amogus sprite sheet_22
       rect:
         serializedVersion: 2
-        x: 200
-        y: 48
-        width: 16
-        height: 31
+        x: 192
+        y: 144
+        width: 32
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -622,12 +622,12 @@ TextureImporter:
       name: Amogus sprite sheet_23
       rect:
         serializedVersion: 2
-        x: 232
-        y: 48
-        width: 16
-        height: 28
+        x: 224
+        y: 144
+        width: 32
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -635,6 +635,510 @@ TextureImporter:
       bones: []
       spriteID: 0e1b58dc4fe287c4aacd74975f70eaca
       internalID: -1255178845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amogus sprite sheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ff09d8728ffa484dab07ea2baa987e8
+      internalID: 1613836044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amogus sprite sheet_25
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 784de5505817f45409a2a9984b4a5e30
+      internalID: 65666410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amogus sprite sheet_26
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd21f0bcd6a6a140b98cb8d015e52c2
+      internalID: -1511448834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amogus sprite sheet_27
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6f710edbeb23364db0bbfb76e9a6c71
+      internalID: 2045628541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amogus sprite sheet_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf74c319e0472a47aadf52e53b31455
+      internalID: 54751742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amogus sprite sheet_29
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b5be289405f6b4ebd80e23bf6cb2e6
+      internalID: -1411589959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amogus sprite sheet_30
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afc39ef7ecef8944a8a6a854b9318265
+      internalID: 965168533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amogus sprite sheet_31
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29627b8cd884e504bbc0be3d12e567c7
+      internalID: 237301409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AmogusYellow
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8650d9f1b95ba6e4e8cab947bbed8441
+      internalID: -1135248802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amogus sprite sheet_33
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ff4535002045d4389b8fff95042758
+      internalID: -1661140158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amogus sprite sheet_34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cf3e8827ae5570419b62e307c735193
+      internalID: 1061603955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amogus sprite sheet_35
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03c59114a31338d4bbf974f78982a008
+      internalID: 896994621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AmogusWhite
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 48
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be42d9b546a199a4aa0a5f0de544d172
+      internalID: 387310271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amogus sprite sheet_37
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 48
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a143a6fe68064824dbc4c9aed7f9b3df
+      internalID: 100007128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amogus sprite sheet_38
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 48
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e0dc6030e0df5b4597b2728b8d03f88
+      internalID: -295225200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amogus sprite sheet_39
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 48
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1775cedf7fd71c543b00f61b922407cc
+      internalID: 855317396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amogus sprite sheet_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea1230fd6d23ffa47acb87c4f115e1f3
+      internalID: -2044749852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amogus sprite sheet_41
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bedb38aa02e8b7a4a8782892c0b9e152
+      internalID: 140531961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amogus sprite sheet_42
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6927ac5213883ce468eef692517d1893
+      internalID: 1128911156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amogus sprite sheet_43
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbd85277c63a4c84f8dcbf3bcdfd7ede
+      internalID: -2124753281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amogus sprite sheet_44
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe43f11661c2214baeba07df39d9ee6
+      internalID: 1989041165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amogus sprite sheet_45
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c3ae625ee3fa845b380f260c920612
+      internalID: -923367112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amogus sprite sheet_46
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77395608f86adbf45bbdc416d558768b
+      internalID: 1260449104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amogus sprite sheet_47
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0090b0fd0eef66b429964ee280a4fe95
+      internalID: -137800638
       vertices: []
       indices: 
       edges: []
@@ -650,7 +1154,6 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Amogus sprite sheet_0: -12469551
       Amogus sprite sheet_1: 406066577
       Amogus sprite sheet_10: -725491025
       Amogus sprite sheet_11: -481131037
@@ -658,22 +1161,47 @@ TextureImporter:
       Amogus sprite sheet_13: 1289542900
       Amogus sprite sheet_14: -1739298040
       Amogus sprite sheet_15: 1901966567
-      Amogus sprite sheet_16: -1251720689
       Amogus sprite sheet_17: 210530548
       Amogus sprite sheet_18: -1594031954
       Amogus sprite sheet_19: -1207789625
       Amogus sprite sheet_2: 1522043711
-      Amogus sprite sheet_20: 59532983
       Amogus sprite sheet_21: 49894618
       Amogus sprite sheet_22: -355942724
       Amogus sprite sheet_23: -1255178845
+      Amogus sprite sheet_24: 1613836044
+      Amogus sprite sheet_25: 65666410
+      Amogus sprite sheet_26: -1511448834
+      Amogus sprite sheet_27: 2045628541
+      Amogus sprite sheet_28: 54751742
+      Amogus sprite sheet_29: -1411589959
       Amogus sprite sheet_3: 154830306
-      Amogus sprite sheet_4: -1150195963
+      Amogus sprite sheet_30: 965168533
+      Amogus sprite sheet_31: 237301409
+      Amogus sprite sheet_33: -1661140158
+      Amogus sprite sheet_34: 1061603955
+      Amogus sprite sheet_35: 896994621
+      Amogus sprite sheet_37: 100007128
+      Amogus sprite sheet_38: -295225200
+      Amogus sprite sheet_39: 855317396
+      Amogus sprite sheet_40: -2044749852
+      Amogus sprite sheet_41: 140531961
+      Amogus sprite sheet_42: 1128911156
+      Amogus sprite sheet_43: -2124753281
+      Amogus sprite sheet_44: 1989041165
+      Amogus sprite sheet_45: -923367112
+      Amogus sprite sheet_46: 1260449104
+      Amogus sprite sheet_47: -137800638
       Amogus sprite sheet_5: -48787526
       Amogus sprite sheet_6: -576300150
       Amogus sprite sheet_7: -1891075101
       Amogus sprite sheet_8: 1420826667
       Amogus sprite sheet_9: 778806962
+      AmogusBlue: -1150195963
+      AmogusGreen: 59532983
+      AmogusPurple: -1251720689
+      AmogusRed: -12469551
+      AmogusWhite: 387310271
+      AmogusYellow: -1135248802
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

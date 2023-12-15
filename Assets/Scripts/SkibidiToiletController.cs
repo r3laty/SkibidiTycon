@@ -18,7 +18,7 @@ public class SkibidiToiletController : MonoBehaviour
     {
         _rb.velocity = Vector3.one * (-speed) * Time.fixedDeltaTime;
 
-        _animator.SetBool("Spawned", true);
+        //_animator.SetBool("Spawned", true);
     }
 
     private void OnTriggerStay2D(Collider2D collision)
