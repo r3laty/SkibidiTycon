@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1112091725096991077
+--- !u!1 &5143184725777984885
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,41 +8,40 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 808692823745930974}
-  - component: {fileID: 6004108224843394560}
-  - component: {fileID: 5574987614463653009}
-  - component: {fileID: 2958987161328054609}
-  - component: {fileID: 6221783209472562834}
+  - component: {fileID: 1990244392815653722}
+  - component: {fileID: 4918593198773541388}
+  - component: {fileID: 4204734065294177512}
+  - component: {fileID: 473024729402254168}
   m_Layer: 0
-  m_Name: PurpleAmogus
+  m_Name: WhiteAmogus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &808692823745930974
+--- !u!4 &1990244392815653722
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1112091725096991077}
+  m_GameObject: {fileID: 5143184725777984885}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.22, y: 4.423, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.1, y: 4.68, z: 0}
   m_LocalScale: {x: 5, y: 6, z: 6}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 4735862351897964798}
+  - {fileID: 3734106401786246461}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &6004108224843394560
+--- !u!212 &4918593198773541388
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1112091725096991077}
+  m_GameObject: {fileID: 5143184725777984885}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -77,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1251720689, guid: b8e4b0df93801ad4f8947a97f4802334, type: 3}
+  m_Sprite: {fileID: 387310271, guid: b8e4b0df93801ad4f8947a97f4802334, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -88,61 +87,39 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &5574987614463653009
+--- !u!114 &4204734065294177512
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1112091725096991077}
+  m_GameObject: {fileID: 5143184725777984885}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7e26687645eb2784584894c5512ead30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   pressCount: 1
-  amogusPrefab: {fileID: 1112091725096991077}
-  toiletPrefab: {fileID: 0}
+  amogusPrefab: {fileID: 5143184725777984885}
   spawnArea: {fileID: 0}
   spawnButton: {fileID: 0}
   prices: 085200009065000018790000409c0000
   distanceToNext: 1.2
---- !u!95 &2958987161328054609
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1112091725096991077}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 385fcc80c9c7b174b9e4271a08d8e4ca, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
---- !u!114 &6221783209472562834
+--- !u!114 &473024729402254168
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1112091725096991077}
+  m_GameObject: {fileID: 5143184725777984885}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8af2b3278c8bc034da00810a949dfc15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  typeOfAmogus: purple
-  spriteRenderer: {fileID: 8273832539178762963}
---- !u!1 &4797127790461210549
+  typeOfAmogus: white
+  spriteRenderer: {fileID: 27653174559577731}
+--- !u!1 &6842131506810060248
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -150,8 +127,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4735862351897964798}
-  - component: {fileID: 8273832539178762963}
+  - component: {fileID: 3734106401786246461}
+  - component: {fileID: 27653174559577731}
   m_Layer: 0
   m_Name: Skin
   m_TagString: Untagged
@@ -159,28 +136,28 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4735862351897964798
+--- !u!4 &3734106401786246461
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4797127790461210549}
+  m_GameObject: {fileID: 6842131506810060248}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -0.029, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 808692823745930974}
+  m_Father: {fileID: 1990244392815653722}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &8273832539178762963
+--- !u!212 &27653174559577731
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4797127790461210549}
+  m_GameObject: {fileID: 6842131506810060248}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0

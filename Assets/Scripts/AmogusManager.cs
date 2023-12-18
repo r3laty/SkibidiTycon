@@ -7,7 +7,6 @@ public class AmogusManager : MonoBehaviour
     [HideInInspector]public int pressCount = 1;
 
     [SerializeField] private GameObject amogusPrefab;
-    [SerializeField] private GameObject toiletPrefab;
 
     [SerializeField] private Transform spawnArea;
     [SerializeField] private Button spawnButton;
@@ -59,7 +58,6 @@ public class AmogusManager : MonoBehaviour
             _priceIndex++;
 
             pressCount++;
-            Debug.Log(pressCount + " press count");
         }
         else
         {

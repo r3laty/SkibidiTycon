@@ -2,14 +2,7 @@ using UnityEngine;
 
 public class AssighSkin : MonoBehaviour
 {
-    [SerializeField] private SkinColor skinColor;
-    [Space]
-    [SerializeField] private Sprite defaultSprite_red;
-    [SerializeField] private Sprite defaultSprite_blue;
-    [SerializeField] private Sprite defaultSprite_purple;
-    [SerializeField] private Sprite defaultSprite_green;
-    [SerializeField] private Sprite defaultSprite_yellow;
-    [SerializeField] private Sprite defaultSprite_white;
+    [SerializeField] private string typeOfAmogus;
     [Space]
     [SerializeField] private SpriteRenderer spriteRenderer;
 
@@ -17,40 +10,31 @@ public class AssighSkin : MonoBehaviour
     {
         SetSprite();
     }
-    private void SetSprite()
+    public void SetSprite()
     {
-        switch (skinColor)
+        if (typeOfAmogus == "red" && SkinControll.buttonId == 0)
         {
-            case SkinColor.Red:
-                spriteRenderer.sprite = SkinControll.Instance.SkinItem();
-                Debug.Log("Changed skin " + SkinControll.Instance.SkinItem().name);
-                break;
-            case SkinColor.Blue:
-                print("blue");
-                break;
-            case SkinColor.Purple:
-                spriteRenderer.sprite = SkinControll.Instance.SkinItem();
-                break;
-            case SkinColor.Green:
-                spriteRenderer.sprite = SkinControll.Instance.SkinItem();
-                break;
-            case SkinColor.Yellow:
-                spriteRenderer.sprite = SkinControll.Instance.SkinItem();
-                break;
-            case SkinColor.White:
-                spriteRenderer.sprite = SkinControll.Instance.SkinItem();
-                break;
-            default: print("Non skin wasnt set");
-                break;
+            spriteRenderer.sprite = SkinControll.Instance.SkinItem();
+        }
+        if (typeOfAmogus == "blue" && SkinControll.buttonId == 1)
+        {
+            spriteRenderer.sprite = SkinControll.Instance.SkinItem();
+        }
+        if (typeOfAmogus == "purple" && SkinControll.buttonId == 2)
+        {
+            spriteRenderer.sprite = SkinControll.Instance.SkinItem();
+        }
+        if (typeOfAmogus == "green" && SkinControll.buttonId == 3)
+        {
+            spriteRenderer.sprite = SkinControll.Instance.SkinItem();
+        }
+        if (typeOfAmogus == "yellow" && SkinControll.buttonId == 4)
+        {
+            spriteRenderer.sprite = SkinControll.Instance.SkinItem();
+        }
+        if (typeOfAmogus == "white" && SkinControll.buttonId == 5)
+        {
+            spriteRenderer.sprite = SkinControll.Instance.SkinItem();
         }
     }
-}
-public enum SkinColor
-{
-    Red,
-    Blue,
-    Purple,
-    Green,
-    Yellow,
-    White
 }

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 94e48ef566d61ba41bc4d4c28c18133e
+guid: 067d9209e6131d44a9bd494efef85dcd
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -136,13 +136,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Skibidi toilet sprite sheet_1
+      name: ElevatorLocked
       rect:
         serializedVersion: 2
-        x: 41
-        y: 96
-        width: 14
-        height: 36
+        x: 0
+        y: 0
+        width: 80
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,20 +150,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b55be0f82fa15244982734263ba5ee66
-      internalID: 808298419
+      spriteID: 3756d073bbf649a439be0b48b2258204
+      internalID: -1684847608
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skibidi toilet sprite sheet_
+      name: ElevatorUp
       rect:
         serializedVersion: 2
-        x: 9
-        y: 96
-        width: 14
-        height: 12
+        x: 80
+        y: 0
+        width: 80
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,20 +171,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6dc017608bf61b4fa7b29dde671a2bd
-      internalID: 877580156
+      spriteID: 7c853da2918dee04cb425b05a2e107e4
+      internalID: -1669877308
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skibidi toilet sprite sheet_2
+      name: ElevatorDown
       rect:
         serializedVersion: 2
-        x: 73
-        y: 96
-        width: 14
-        height: 36
+        x: 160
+        y: 0
+        width: 80
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,29 +192,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5ff75db10a56b747b2dbe107c878241
-      internalID: 1525047486
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Skibidi toilet sprite sheet_3
-      rect:
-        serializedVersion: 2
-        x: 105
-        y: 96
-        width: 14
-        height: 36
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 90bb2fee0ad59764cae5a71758b41e50
-      internalID: -1949012900
+      spriteID: 2810153c4754dc046be6e12f10797368
+      internalID: 890851617
       vertices: []
       indices: 
       edges: []
@@ -230,10 +209,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Skibidi toilet sprite sheet_: 877580156
-      Skibidi toilet sprite sheet_1: 808298419
-      Skibidi toilet sprite sheet_2: 1525047486
-      Skibidi toilet sprite sheet_3: -1949012900
+      ElevatorDown: 890851617
+      ElevatorLocked: -1684847608
+      ElevatorUp: -1669877308
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

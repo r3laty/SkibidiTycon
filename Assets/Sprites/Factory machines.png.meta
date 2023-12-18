@@ -186,7 +186,7 @@ TextureImporter:
         width: 32
         height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -194,6 +194,69 @@ TextureImporter:
       bones: []
       spriteID: fd10b92c2e93aa043945c57c23de42b3
       internalID: -507477596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Factory machines_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 108e95418cb70794f8b8a02e8093e285
+      internalID: -1750926530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Factory machines_4
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f78ccc471c8674b9bc47866f1d428a
+      internalID: 2051283132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Factory machines_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c7ec9885d9b67840a76c204bb54c706
+      internalID: 890153118
       vertices: []
       indices: 
       edges: []
@@ -212,6 +275,9 @@ TextureImporter:
       Factory machines_0: -1734797582
       Factory machines_1: 1473478934
       Factory machines_2: -507477596
+      Factory machines_3: -1750926530
+      Factory machines_4: 2051283132
+      Factory machines_5: 890153118
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
