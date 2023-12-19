@@ -78,7 +78,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
@@ -186,7 +186,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pressCount: 1
   amogusPrefab: {fileID: 8727331378573101944}
-  toiletPrefab: {fileID: 0}
   spawnArea: {fileID: 0}
   spawnButton: {fileID: 0}
   prices: d80e00008813000028230000c8320000
@@ -224,11 +223,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8af2b3278c8bc034da00810a949dfc15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skinColor: 1
-  defaultSprite_red: {fileID: -12469551, guid: b8e4b0df93801ad4f8947a97f4802334, type: 3}
-  defaultSprite_blue: {fileID: -1150195963, guid: b8e4b0df93801ad4f8947a97f4802334, type: 3}
-  defaultSprite_purple: {fileID: -1251720689, guid: b8e4b0df93801ad4f8947a97f4802334, type: 3}
-  defaultSprite_green: {fileID: 59532983, guid: b8e4b0df93801ad4f8947a97f4802334, type: 3}
-  defaultSprite_yellow: {fileID: -1135248802, guid: b8e4b0df93801ad4f8947a97f4802334, type: 3}
-  defaultSprite_white: {fileID: 387310271, guid: b8e4b0df93801ad4f8947a97f4802334, type: 3}
+  typeOfAmogus: blue
   spriteRenderer: {fileID: 7408742212095139661}

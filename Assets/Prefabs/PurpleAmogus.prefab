@@ -102,7 +102,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pressCount: 1
   amogusPrefab: {fileID: 1112091725096991077}
-  toiletPrefab: {fileID: 0}
   spawnArea: {fileID: 0}
   spawnButton: {fileID: 0}
   prices: 085200009065000018790000409c0000
@@ -220,7 +219,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0

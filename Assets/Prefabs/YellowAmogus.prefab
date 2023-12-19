@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1433235954549793376}
   - component: {fileID: 431285689660453704}
   - component: {fileID: 1150251752572977306}
+  - component: {fileID: 8028087768175183175}
   m_Layer: 0
   m_Name: YellowAmogus
   m_TagString: Untagged
@@ -101,7 +102,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pressCount: 1
   amogusPrefab: {fileID: 2738708943908746273}
-  toiletPrefab: {fileID: 3402772362847724412, guid: c1a9a44129621c34e82600036f5ce3ba, type: 3}
   spawnArea: {fileID: 0}
   spawnButton: {fileID: 0}
   prices: d80e00008813000028230000c8320000
@@ -120,6 +120,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   typeOfAmogus: yellow
   spriteRenderer: {fileID: 890870252212794654}
+--- !u!95 &8028087768175183175
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2738708943908746273}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2b2a5a087406da14384fad13912650a3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &6596101789583328016
 GameObject:
   m_ObjectHideFlags: 0
@@ -193,14 +214,14 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -1628773762, guid: ef34f46c70f04374da0b1f51b9668462, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0

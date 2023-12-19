@@ -96,6 +96,7 @@ GameObject:
   - component: {fileID: 6549112327769298388}
   - component: {fileID: 1760532930486227589}
   - component: {fileID: 8990113778454937534}
+  - component: {fileID: 240739408106594468}
   m_Layer: 0
   m_Name: GreenAmogus
   m_TagString: Untagged
@@ -185,7 +186,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pressCount: 1
   amogusPrefab: {fileID: 7751045758132187575}
-  toiletPrefab: {fileID: 3402772362847724412, guid: c1a9a44129621c34e82600036f5ce3ba, type: 3}
   spawnArea: {fileID: 0}
   spawnButton: {fileID: 0}
   prices: 204e000078ce0400d0dd0600c0270900
@@ -204,3 +204,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   typeOfAmogus: green
   spriteRenderer: {fileID: 1350923847652949265}
+--- !u!95 &240739408106594468
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7751045758132187575}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b3ed823bbd9216d429775665797ec3ba, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
