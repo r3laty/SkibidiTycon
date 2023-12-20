@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7271640024644195700}
   - component: {fileID: 4465156175799470708}
   - component: {fileID: 6450644867347067045}
+  - component: {fileID: 1717853000741248312}
   m_Layer: 0
   m_Name: Spider Skibidi toilet
   m_TagString: SkibidiToilet
@@ -173,3 +174,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.14, y: 0.36}
   m_EdgeRadius: 0
+--- !u!95 &1717853000741248312
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3098396666238074157}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c8c59a4e1a5176e4395d56ad93c7e610, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

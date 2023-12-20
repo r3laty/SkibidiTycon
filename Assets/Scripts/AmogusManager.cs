@@ -13,7 +13,7 @@ public class AmogusManager : MonoBehaviour
 
     [SerializeField] private int[] prices = new int[4];
 
-    [SerializeField] private float distanceToNext = 1.2f;
+    //[SerializeField] private float distanceToNext = 1.2f;
 
     private Vector2 _needPosition;
     private Vector2 _currentPosition;

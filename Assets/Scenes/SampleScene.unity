@@ -915,7 +915,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2415555540760621479, guid: 23a489996ee1d4548a4058bb7573c771, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 23a489996ee1d4548a4058bb7573c771, type: 3}
 --- !u!4 &89862886 stripped
 Transform:
@@ -2155,7 +2158,7 @@ Transform:
   m_GameObject: {fileID: 279996676}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.76, y: 1.46, z: 0}
+  m_LocalPosition: {x: -1.78, y: 1.68, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4080,8 +4083,8 @@ Camera:
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 4
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -4591,7 +4594,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2415555540760621479, guid: 23a489996ee1d4548a4058bb7573c771, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 23a489996ee1d4548a4058bb7573c771, type: 3}
 --- !u!4 &561632976 stripped
 Transform:
@@ -7477,7 +7483,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &968434330
 Transform:
   m_ObjectHideFlags: 0
@@ -8887,7 +8893,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1275281371
 Transform:
   m_ObjectHideFlags: 0
@@ -10389,8 +10395,8 @@ Transform:
   m_GameObject: {fileID: 1398369927}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.074700356, y: -0.044800043, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalPosition: {x: -1.23, y: -0.3016, z: 0}
+  m_LocalScale: {x: 3.5976343, y: 4.032456, z: 2.7528}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1158576347}
@@ -10436,8 +10442,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -999
-  m_Sprite: {fileID: 21300000, guid: 6ad73f762e5df344888664ab4bfb5f60, type: 2}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 26f221f4383f4d04fb38b89b547e5ee8, type: 2}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.54901963}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -15738,6 +15744,7 @@ GameObject:
   - component: {fileID: 4717378785507127444}
   - component: {fileID: 2939761923669911319}
   - component: {fileID: 1131698490556239028}
+  - component: {fileID: 6668933991497893554}
   m_Layer: 0
   m_Name: Skibidi toilet
   m_TagString: SkibidiToilet
@@ -15828,7 +15835,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.14, y: 0.36}
+  m_Size: {x: 0.32, y: 0.48}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -16270,11 +16277,11 @@ PrefabInstance:
       objectReference: {fileID: 494727593}
     - target: {fileID: 6339675928187996412, guid: 852c79cf65b216e44a9dfc2078f935c3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.07
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 6339675928187996412, guid: 852c79cf65b216e44a9dfc2078f935c3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.46
+      value: 1.68
       objectReference: {fileID: 0}
     - target: {fileID: 6339675928187996412, guid: 852c79cf65b216e44a9dfc2078f935c3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -17324,6 +17331,7 @@ GameObject:
   - component: {fileID: 7590009834325215035}
   - component: {fileID: 5012262655831000875}
   - component: {fileID: 6177150980794739399}
+  - component: {fileID: 7590009834325215036}
   m_Layer: 0
   m_Name: Skibidi toilet
   m_TagString: SkibidiToilet
@@ -17675,7 +17683,7 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 0.32, y: 0.48}
-    newSize: {x: 0.14, y: 0.36}
+    newSize: {x: 0.32, y: 0.48}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -19002,6 +19010,7 @@ GameObject:
   - component: {fileID: 1006447644879971666}
   - component: {fileID: 206937759150706556}
   - component: {fileID: 4580132116133953405}
+  - component: {fileID: 5383190074399433024}
   m_Layer: 0
   m_Name: Skibidi toilet
   m_TagString: SkibidiToilet
@@ -19009,6 +19018,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!95 &5383190074399433024
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5383190074399433023}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f57b0fc14c5632a4392be20e2fa5aad8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!222 &5544431076895321794
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -19944,6 +19974,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 740196627}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &6668933991497893554
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 743283356403096501}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c8c59a4e1a5176e4395d56ad93c7e610, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &6693208708385759814
 GameObject:
   m_ObjectHideFlags: 0
@@ -20534,6 +20585,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   toiletPrice: 50
   speed: 22
+--- !u!95 &7590009834325215036
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2729833445990623049}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ad903e28e4998184eaf3613adb11a227, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &7653508923459964171
 GameObject:
   m_ObjectHideFlags: 0

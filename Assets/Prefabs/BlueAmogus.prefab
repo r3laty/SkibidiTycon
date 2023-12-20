@@ -113,7 +113,7 @@ Transform:
   m_GameObject: {fileID: 8727331378573101944}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.22, y: 1.05, z: 0}
+  m_LocalPosition: {x: -0.1, y: 1.68, z: 0}
   m_LocalScale: {x: 5, y: 6, z: 6}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -189,7 +189,6 @@ MonoBehaviour:
   spawnArea: {fileID: 0}
   spawnButton: {fileID: 0}
   prices: d80e00008813000028230000c8320000
-  distanceToNext: 1.2
 --- !u!95 &3803494525521909284
 Animator:
   serializedVersion: 5

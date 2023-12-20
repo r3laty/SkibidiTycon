@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8824456349942549768}
   - component: {fileID: 8457314027122878246}
   - component: {fileID: 5192297855327983399}
+  - component: {fileID: 466962760023000738}
   m_Layer: 0
   m_Name: Jungle skibidi toilet
   m_TagString: SkibidiToilet
@@ -173,3 +174,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.14, y: 0.36}
   m_EdgeRadius: 0
+--- !u!95 &466962760023000738
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4410629729164577125}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f57b0fc14c5632a4392be20e2fa5aad8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
