@@ -17,13 +17,12 @@ public class AmogusManager : MonoBehaviour
 
     private Vector2 _needPosition;
     private Vector2 _currentPosition;
+    private float _distance = -1.533733f;
 
     private RectTransform _buttonRect;
     private TextMeshProUGUI _buttonText;
     private int _price;
     private int _priceIndex = 1;
-
-    private bool _wasPressed;
 
     private string _dollar = "<color=#02c405>$</color>";
     private void Awake()
@@ -47,9 +46,7 @@ public class AmogusManager : MonoBehaviour
             _price = prices[_priceIndex];
             _buttonText.text = _price.ToString() + _dollar;
 
-            float checkDistance = Vector3.Distance(_needPosition, _currentPosition);
-
-            Vector3 newAmogusSpawnArea = new Vector3(-checkDistance, 0, 0);
+            Vector3 newAmogusSpawnArea = new Vector3(_distance, 0, 0);
 
             Instantiate(amogusPrefab, spawnArea.position, Quaternion.identity);
             spawnArea.position -= new Vector3(-newAmogusSpawnArea.x, 0, 0);
