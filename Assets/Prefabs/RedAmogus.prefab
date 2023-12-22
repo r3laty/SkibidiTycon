@@ -28,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2804133797291244995}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.1, y: -1.68, z: 0}
   m_LocalScale: {x: 5, y: 6, z: 6}
   m_ConstrainProportionsScale: 0
@@ -105,7 +105,6 @@ MonoBehaviour:
   spawnArea: {fileID: 0}
   spawnButton: {fileID: 0}
   prices: 32000000960000002c010000f4010000
-  distanceToNext: 1.2
 --- !u!95 &2304071432135896975
 Animator:
   serializedVersion: 5
@@ -140,6 +139,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   typeOfAmogus: red
+  colorOfAmogus: 0
   spriteRenderer: {fileID: 3275493834138323329}
 --- !u!1 &5149888456082551476
 GameObject:

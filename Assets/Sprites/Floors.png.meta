@@ -165,7 +165,7 @@ TextureImporter:
         width: 359
         height: 200
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -173,6 +173,48 @@ TextureImporter:
       bones: []
       spriteID: e5d2e1949232cde47ad70132641c1192
       internalID: 1745660274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floors_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 360
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b2fc6cf001dd64d8b12909d97fbe99
+      internalID: -624526162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floors_3
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 0
+        width: 359
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec12083d7a8305f4698df20c9d436fdb
+      internalID: -1365060778
       vertices: []
       indices: 
       edges: []
@@ -190,6 +232,8 @@ TextureImporter:
     nameFileIdTable:
       Floors_0: 253088501
       Floors_1: 1745660274
+      Floors_2: -624526162
+      Floors_3: -1365060778
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

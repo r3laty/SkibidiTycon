@@ -223,4 +223,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   typeOfAmogus: blue
+  colorOfAmogus: 1
   spriteRenderer: {fileID: 7408742212095139661}

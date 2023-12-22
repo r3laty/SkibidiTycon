@@ -105,7 +105,6 @@ MonoBehaviour:
   spawnArea: {fileID: 0}
   spawnButton: {fileID: 0}
   prices: 085200009065000018790000409c0000
-  distanceToNext: 1.2
 --- !u!114 &473024729402254168
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -119,6 +118,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   typeOfAmogus: white
+  colorOfAmogus: 5
   spriteRenderer: {fileID: 27653174559577731}
 --- !u!95 &7907747858061474319
 Animator:

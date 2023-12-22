@@ -105,7 +105,6 @@ MonoBehaviour:
   spawnArea: {fileID: 0}
   spawnButton: {fileID: 0}
   prices: 085200009065000018790000409c0000
-  distanceToNext: 1.2
 --- !u!95 &2958987161328054609
 Animator:
   serializedVersion: 5
@@ -140,6 +139,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   typeOfAmogus: purple
+  colorOfAmogus: 2
   spriteRenderer: {fileID: 8273832539178762963}
 --- !u!1 &4797127790461210549
 GameObject:

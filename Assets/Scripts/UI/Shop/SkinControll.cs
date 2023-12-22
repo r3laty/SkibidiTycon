@@ -2,7 +2,7 @@ using UnityEngine;
 public class SkinControll : MonoBehaviour
 {
     public static SkinControll Instance;
-    public static int buttonId;
+    public static int buttonId = 100;
 
     public Sprite currentSkin;
     [SerializeField] private Sprite[] skinSprite = new Sprite[18];
