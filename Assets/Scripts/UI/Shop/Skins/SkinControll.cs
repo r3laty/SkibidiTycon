@@ -13,6 +13,7 @@ public class SkinControll : MonoBehaviour
             Instance = this;
         }
     }
+    /// Method on button
     public void SetSkin(int skinIndex)
     {
         switch (skinIndex)
@@ -87,7 +88,7 @@ public class SkinControll : MonoBehaviour
                 break;
         }
     }
-    public Sprite SkinItem()
+    public virtual Sprite SkinItem()
     {
         if (currentSkin == null)
         {

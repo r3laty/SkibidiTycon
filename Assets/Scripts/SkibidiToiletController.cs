@@ -43,8 +43,4 @@ public class SkibidiToiletController : MonoBehaviour
             Destroy(gameObject);
         }
     }
-    private void OnDestroy()
-    {
-        StopAllCoroutines();
-    }
 }

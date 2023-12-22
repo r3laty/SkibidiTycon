@@ -17,7 +17,7 @@ public class AssighSkin : MonoBehaviour
     {
         SetSprite();
     }
-    public void SetSprite()
+    private void ChooseColor()
     {
         switch (colorOfAmogus)
         {
@@ -43,6 +43,10 @@ public class AssighSkin : MonoBehaviour
                 break;
         }
 
+    }
+    private void SetSprite()
+    {
+
         if (_red && SkinControll.buttonId == 0) spriteRenderer.sprite = SkinControll.Instance.SkinItem();
 
         if (_blue && SkinControll.buttonId == 1) spriteRenderer.sprite = SkinControll.Instance.SkinItem();
@@ -55,6 +59,7 @@ public class AssighSkin : MonoBehaviour
 
         if (_white && SkinControll.buttonId == 5) spriteRenderer.sprite = SkinControll.Instance.SkinItem();
     }
+
 }
 
 public enum AmogusColor

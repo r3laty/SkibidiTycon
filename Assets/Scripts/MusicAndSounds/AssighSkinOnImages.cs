@@ -4,6 +4,7 @@ using UnityEngine.UI;
 public class AssighSkinOnImages : MonoBehaviour
 {
     public AmogusColor colorOfAmogus;
+    [SerializeField] private int colorIndex = 100;
     [Space]
     [SerializeField] private Image source;
 
@@ -62,31 +63,31 @@ public class AssighSkinOnImages : MonoBehaviour
             source.color = _newColor;
         }
 
-        if (_blue && SkinControll.buttonId == 0)
+        if (_blue && SkinControll.buttonId == 1)
         {
             source.sprite = SkinControll.Instance.SkinItem();
             source.color = _newColor;
         }
 
-        if (_purple && SkinControll.buttonId == 0)
+        if (_purple && SkinControll.buttonId == 2)
         {
             source.sprite = SkinControll.Instance.SkinItem();
             source.color = _newColor;
         }
 
-        if (_green && SkinControll.buttonId == 0)
+        if (_green && SkinControll.buttonId == 3)
         {
             source.sprite = SkinControll.Instance.SkinItem();
             source.color = _newColor;
         }
 
-        if (_yellow && SkinControll.buttonId == 0)
+        if (_yellow && SkinControll.buttonId == 4)
         {
             source.sprite = SkinControll.Instance.SkinItem();
             source.color = _newColor;
         }
 
-        if (_white && SkinControll.buttonId == 0)
+        if (_white && SkinControll.buttonId == 5)
         {
             source.sprite = SkinControll.Instance.SkinItem();
             source.color = _newColor;
