@@ -136,75 +136,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Floors_0
+      name: Wooden
       rect:
         serializedVersion: 2
-        x: 0
+        x: 1
         y: 202
         width: 360
-        height: 200
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6059fab4356277949b70fcba5b4c2dcc
-      internalID: 253088501
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Floors_1
-      rect:
-        serializedVersion: 2
-        x: 361
-        y: 203
-        width: 359
-        height: 200
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e5d2e1949232cde47ad70132641c1192
-      internalID: 1745660274
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Floors_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 360
-        height: 201
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 98b2fc6cf001dd64d8b12909d97fbe99
-      internalID: -624526162
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Floors_3
-      rect:
-        serializedVersion: 2
-        x: 361
-        y: 0
-        width: 359
         height: 202
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -213,7 +150,70 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec12083d7a8305f4698df20c9d436fdb
+      spriteID: 0e16a408dd8d6234f81ead4d80f3eca5
+      internalID: 253088501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chess
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 202
+        width: 360
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f18d05dde4650484d97d7e8e83bd9fae
+      internalID: 1745660274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iron
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 360
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ab730e92d49144a9ab8a0d1e3920cd
+      internalID: -624526162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golden
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 360
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b1407107d7fea94cbe4b560152bdaf2
       internalID: -1365060778
       vertices: []
       indices: 
@@ -230,10 +230,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Floors_0: 253088501
-      Floors_1: 1745660274
-      Floors_2: -624526162
-      Floors_3: -1365060778
+      Chess: 1745660274
+      Golden: -1365060778
+      Iron: -624526162
+      Wooden: 253088501
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
