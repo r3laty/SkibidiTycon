@@ -15,11 +15,20 @@ public class AssignFloor : MonoBehaviour
     {
         if (FloorControll.buttonId == 1)
         {
+            ironFloor[0].SetActive(false);
+            ironFloor[1].SetActive(false);
+
+            goldenFloor[0].SetActive(false);
+            goldenFloor[1].SetActive(false);
+
             chessFloor[0].SetActive(true);
             chessFloor[1].SetActive(true);
         }
         if (FloorControll.buttonId == 2)
         {
+            goldenFloor[0].SetActive(false);
+            goldenFloor[1].SetActive(false);
+
             chessFloor[0].SetActive(false);
             chessFloor[1].SetActive(false);
 

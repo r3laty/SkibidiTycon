@@ -1,4 +1,6 @@
 using UnityEngine;
+using UnityEngine.UI;
+
 public class SkinControll : MonoBehaviour
 {
     public static SkinControll Instance;

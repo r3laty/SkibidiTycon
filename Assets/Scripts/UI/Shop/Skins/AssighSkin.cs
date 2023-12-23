@@ -46,6 +46,7 @@ public class AssighSkin : MonoBehaviour
     }
     private void SetSprite()
     {
+        ChooseColor();
 
         if (_red && SkinControll.buttonId == 0) spriteRenderer.sprite = SkinControll.Instance.SkinItem();
 
