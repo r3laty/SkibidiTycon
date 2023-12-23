@@ -31,6 +31,7 @@ public class SkibidiToiletController : MonoBehaviour
     //        yield return new WaitForSeconds(1);
     //    }
     //}
+
     private void FixedUpdate()
     {
         _rb.velocity = Vector3.one * (-speed) * Time.fixedDeltaTime;
@@ -40,6 +41,7 @@ public class SkibidiToiletController : MonoBehaviour
     {
         if (collision.CompareTag("Finish"))
         {
+            MoneyHandler.MoneyCount += toiletPrice;
             Destroy(gameObject);
         }
     }
