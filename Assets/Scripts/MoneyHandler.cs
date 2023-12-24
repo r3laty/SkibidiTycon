@@ -1,9 +1,10 @@
+using System;
 using TMPro;
 using UnityEngine;
 
 public class MoneyHandler : MonoBehaviour
 {
-    public static int MoneyCount = 0;
+    public static int MoneyCount = Int32.MaxValue;
     [SerializeField] private TextMeshProUGUI moneyCountText;
     private void Update()
     {

@@ -1,4 +1,5 @@
 using TMPro;
+using Unity.Burst.Intrinsics;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -13,11 +14,7 @@ public class AmogusManager : MonoBehaviour
 
     [SerializeField] private int[] prices = new int[4];
 
-    //[SerializeField] private float distanceToNext = 1.2f;
-
-    private Vector2 _needPosition;
-    private Vector2 _currentPosition;
-    private float _distance = -1.533733f;
+    [SerializeField] private float distance = -1.533733f;
 
     private RectTransform _buttonRect;
     private TextMeshProUGUI _buttonText;
@@ -30,11 +27,6 @@ public class AmogusManager : MonoBehaviour
     {
         _buttonRect = spawnButton.GetComponent<RectTransform>();
         _buttonText = spawnButton.GetComponentInChildren<TextMeshProUGUI>();
-    }
-    private void Start()
-    {
-        _currentPosition = transform.position;
-        _needPosition = spawnArea.position;
     }
 
     /// <summary>
@@ -49,11 +41,13 @@ public class AmogusManager : MonoBehaviour
                 _price = prices[_priceIndex];
                 _buttonText.text = _price.ToString() + _dollar;
 
-                Vector3 newAmogusSpawnArea = new Vector3(_distance, 0, 0);
+                Vector3 newAmogusSpawnArea = new Vector3(distance, 0, 0);
 
                 Instantiate(amogusPrefab, spawnArea.position, Quaternion.identity);
                 spawnArea.position -= new Vector3(-newAmogusSpawnArea.x, 0, 0);
                 _buttonRect.anchoredPosition -= new Vector2(_buttonRect.sizeDelta.x, 0f);
+
+                MoneyHandler.MoneyCount -= prices[_currentPrice];
 
                 _priceIndex++;
 
@@ -61,7 +55,12 @@ public class AmogusManager : MonoBehaviour
             }
             else
             {
+                int lastpriceElement = prices[prices.Length - 1];
+                _price = lastpriceElement;
                 Instantiate(amogusPrefab, spawnArea.position, Quaternion.identity);
+                MoneyHandler.MoneyCount -= _price;
+
+                print("Last button touch");
 
                 pressCount++;
 

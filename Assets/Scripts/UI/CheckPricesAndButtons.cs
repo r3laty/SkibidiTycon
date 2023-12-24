@@ -26,10 +26,6 @@ public class CheckPricesAndButtons : MonoBehaviour
     [Header("Shop")]
     [SerializeField] private Button shopButton;
     [SerializeField] private int shopPrice;
-    [Space]
-    [Header("Elevator")]
-    [SerializeField] private Button elevatorButton;
-    [SerializeField] private int elevatorPrice;
 
 
     private void Start()
@@ -41,7 +37,6 @@ public class CheckPricesAndButtons : MonoBehaviour
         button6.enabled = false;
 
         shopButton.enabled = false;
-        elevatorButton.enabled = false;
     }
     private void Update()
     {
@@ -52,7 +47,6 @@ public class CheckPricesAndButtons : MonoBehaviour
         CheckPrice(buttonPrice6, button6);
 
         CheckPrice(shopPrice, shopButton);
-        CheckPrice(elevatorPrice, elevatorButton);
     }
     private void CheckPrice(int price, Button button)
     {
@@ -64,6 +58,10 @@ public class CheckPricesAndButtons : MonoBehaviour
         {
             button.enabled = false;
         }
+    }
+    public void Payment(int buttonPrice)
+    {
+        MoneyHandler.MoneyCount -= buttonPrice;
     }
 
 }
