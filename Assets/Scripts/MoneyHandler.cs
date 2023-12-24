@@ -8,6 +8,5 @@ public class MoneyHandler : MonoBehaviour
     private void Update()
     {
         moneyCountText.text = MoneyCount + "<color=#02c405>$</color>";
-        Debug.Log(MoneyCount);
     }
 }

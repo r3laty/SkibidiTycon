@@ -7,9 +7,11 @@ public class SkibidiToiletController : MonoBehaviour
 
     [SerializeField] private int toiletPrice;
 
-    [SerializeField] private int speed = 5;
+    [SerializeField] private float speed = 5;
 
-    private int _currentPoint = 0;
+
+    private int _pauseTime = 1;
+    private bool _isMoving;
     private Rigidbody2D _rb;
     private Animator _animator;
     private void Awake()
@@ -30,6 +32,31 @@ public class SkibidiToiletController : MonoBehaviour
     //        transform.position = new Vector3(transform.position.x - speed * screenUnit, transform.position.y, transform.position.z);
     //        yield return new WaitForSeconds(1);
     //    }
+    //}
+    //private void Update()
+    //{
+    //    // Move the object
+    //    if (_isMoving)
+    //    {
+    //        transform.Translate(Vector2.left * speed * Time.deltaTime);
+    //    }
+    //    // Check if the object has reached the end of the movement
+    //    if (_isMoving && transform.position.x > -8.56f) // Adjust the end point as needed
+    //    {
+    //        _isMoving = false;
+    //        StartCoroutine(Pause());
+    //    }
+    //    else if (!_isMoving && transform.position.x < -8.50f) // Adjust the end point as needed
+    //    {
+    //        _isMoving = true;
+    //        StartCoroutine(Pause());
+    //    }
+    //}
+
+    //// Coroutine for introducing a pause
+    //IEnumerator Pause()
+    //{
+    //    yield return new WaitForSeconds(_pauseTime);
     //}
 
     private void FixedUpdate()

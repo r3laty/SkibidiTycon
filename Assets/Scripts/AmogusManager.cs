@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class AmogusManager : MonoBehaviour
 {
-    [HideInInspector]public int pressCount = 1;
+    [HideInInspector] public int pressCount = 1;
 
     [SerializeField] private GameObject amogusPrefab;
 
@@ -21,6 +21,7 @@ public class AmogusManager : MonoBehaviour
 
     private RectTransform _buttonRect;
     private TextMeshProUGUI _buttonText;
+    private int _currentPrice;
     private int _price;
     private int _priceIndex = 1;
 
@@ -41,28 +42,36 @@ public class AmogusManager : MonoBehaviour
     /// </summary>
     public void SpawnNewAmogus()
     {
-        if (_priceIndex < prices.Length)
+        if (MoneyHandler.MoneyCount >= prices[_currentPrice])
         {
-            _price = prices[_priceIndex];
-            _buttonText.text = _price.ToString() + _dollar;
+            if (_priceIndex < prices.Length)
+            {
+                _price = prices[_priceIndex];
+                _buttonText.text = _price.ToString() + _dollar;
 
-            Vector3 newAmogusSpawnArea = new Vector3(_distance, 0, 0);
+                Vector3 newAmogusSpawnArea = new Vector3(_distance, 0, 0);
 
-            Instantiate(amogusPrefab, spawnArea.position, Quaternion.identity);
-            spawnArea.position -= new Vector3(-newAmogusSpawnArea.x, 0, 0);
-            _buttonRect.anchoredPosition -= new Vector2(_buttonRect.sizeDelta.x, 0f);
+                Instantiate(amogusPrefab, spawnArea.position, Quaternion.identity);
+                spawnArea.position -= new Vector3(-newAmogusSpawnArea.x, 0, 0);
+                _buttonRect.anchoredPosition -= new Vector2(_buttonRect.sizeDelta.x, 0f);
 
-            _priceIndex++;
+                _priceIndex++;
 
-            pressCount++;
+                pressCount++;
+            }
+            else
+            {
+                Instantiate(amogusPrefab, spawnArea.position, Quaternion.identity);
+
+                pressCount++;
+
+                Destroy(spawnButton.gameObject);
+            }
+            _currentPrice++;
         }
         else
         {
-            Instantiate(amogusPrefab, spawnArea.position, Quaternion.identity);
-            
-            pressCount++;
-
-            Destroy(spawnButton.gameObject);
+            Debug.Log("Not enought money");
         }
     }
 }
