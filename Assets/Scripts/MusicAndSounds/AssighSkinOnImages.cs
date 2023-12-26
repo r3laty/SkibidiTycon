@@ -31,27 +31,21 @@ public class AssighSkinOnImages : MonoBehaviour
         {
             case AmogusColor.Red:
                 _red = true;
-                print("Red amogus");
                 break;
             case AmogusColor.Blue:
                 _blue = true;
-                print("Blue amogus");
                 break;
             case AmogusColor.Purple:
                 _purple = true;
-                print("Purple amogus");
                 break;
             case AmogusColor.Green:
                 _green = true;
-                print("Green amogus");
                 break;
             case AmogusColor.Yellow:
                 _yellow = true;
-                print("Yellow amogus");
                 break;
             case AmogusColor.White:
                 _white = true;
-                print("White amogus");
                 break;
             default:
                 break;

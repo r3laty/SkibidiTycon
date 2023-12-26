@@ -26,7 +26,8 @@ public class CheckPricesAndButtons : MonoBehaviour
     [Header("Shop")]
     [SerializeField] private Button shopButton;
     [SerializeField] private int shopPrice;
-
+    [Space]
+    [SerializeField] private MusicSettings sound;
 
     private void Start()
     {
@@ -64,9 +65,11 @@ public class CheckPricesAndButtons : MonoBehaviour
         if (MoneyHandler.MoneyCount >= buttonPrice)
         {
             MoneyHandler.MoneyCount -= buttonPrice;
+            sound.BuySuccessSound.Play();
         }
         else
         {
+            sound.BuyFailSound.Play();
             print("Not enought money");
         }
     }

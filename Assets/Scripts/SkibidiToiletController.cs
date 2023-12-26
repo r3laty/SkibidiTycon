@@ -8,10 +8,13 @@ public class SkibidiToiletController : MonoBehaviour
 
     [SerializeField] private float speed = 5;
 
+    [SerializeField] private AudioSource sound;
+
     private Rigidbody2D _rb;
     private void Awake()
     {
         _rb = GetComponent<Rigidbody2D>();
+        sound = GameObject.FindGameObjectWithTag("AddMoney").GetComponent<AudioSource>();
     }
     private void Start()
     {
@@ -29,6 +32,7 @@ public class SkibidiToiletController : MonoBehaviour
         if (collision.CompareTag("Finish"))
         {
             MoneyHandler.MoneyCount += toiletPrice;
+            sound.Play();
             Destroy(gameObject);
         }
     }
