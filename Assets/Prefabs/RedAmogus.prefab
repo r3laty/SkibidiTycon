@@ -105,6 +105,7 @@ MonoBehaviour:
   spawnArea: {fileID: 0}
   spawnButton: {fileID: 0}
   prices: 32000000640000002c010000f4010000
+  musicSettings: {fileID: 0}
   distance: -1.33
 --- !u!95 &2304071432135896975
 Animator:
@@ -140,7 +141,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorOfAmogus: 0
-  spriteRenderer: {fileID: 0}
+  spriteRenderer: {fileID: 1123090518864075652}
 --- !u!1 &5850397854214051839
 GameObject:
   m_ObjectHideFlags: 0
@@ -214,7 +215,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: -1628773762, guid: ef34f46c70f04374da0b1f51b9668462, type: 3}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -222,6 +223,6 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0

@@ -30,7 +30,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.07, y: 1.46, z: 0}
-  m_LocalScale: {x: 5, y: 6, z: 6}
+  m_LocalScale: {x: 5.4768343, y: 6.572201, z: 6.572201}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 9024466505162682772}
@@ -105,6 +105,8 @@ MonoBehaviour:
   spawnArea: {fileID: 0}
   spawnButton: {fileID: 0}
   prices: d80e00008813000028230000c8320000
+  musicSettings: {fileID: 0}
+  distance: -1.33
 --- !u!114 &1150251752572977306
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -117,7 +119,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8af2b3278c8bc034da00810a949dfc15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  typeOfAmogus: yellow
   colorOfAmogus: 4
   spriteRenderer: {fileID: 890870252212794654}
 --- !u!95 &8028087768175183175

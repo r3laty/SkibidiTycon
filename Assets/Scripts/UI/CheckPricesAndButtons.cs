@@ -70,7 +70,7 @@ public class CheckPricesAndButtons : MonoBehaviour
         else
         {
             sound.BuyFailSound.Play();
-            print("Not enought money");
+
         }
     }
 

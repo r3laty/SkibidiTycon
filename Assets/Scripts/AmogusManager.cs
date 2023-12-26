@@ -1,5 +1,4 @@
 using TMPro;
-using Unity.Burst.Intrinsics;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -13,6 +12,8 @@ public class AmogusManager : MonoBehaviour
     [SerializeField] private Button spawnButton;
 
     [SerializeField] private int[] prices = new int[4];
+
+    [SerializeField] private MusicSettings musicSettings;
 
     [SerializeField] private float distance = -1.533733f;
 
@@ -48,6 +49,7 @@ public class AmogusManager : MonoBehaviour
                 _buttonRect.anchoredPosition -= new Vector2(_buttonRect.sizeDelta.x, 0f);
 
                 MoneyHandler.MoneyCount -= prices[_currentPrice];
+                musicSettings.BuySuccessSound.Play();
 
                 _priceIndex++;
 
@@ -60,7 +62,7 @@ public class AmogusManager : MonoBehaviour
                 Instantiate(amogusPrefab, spawnArea.position, Quaternion.identity);
                 MoneyHandler.MoneyCount -= _price;
 
-                print("Last button touch");
+                musicSettings.BuySuccessSound.Play();
 
                 pressCount++;
 
@@ -70,7 +72,7 @@ public class AmogusManager : MonoBehaviour
         }
         else
         {
-            Debug.Log("Not enought money");
+            musicSettings.BuyFailSound.Play();
         }
     }
 }
