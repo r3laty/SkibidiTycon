@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 7459883485919560623}
   - component: {fileID: 3844374183745107167}
   - component: {fileID: 8411842549651238840}
-  - component: {fileID: 6698806381430136420}
   - component: {fileID: 1304923839224790789}
   - component: {fileID: 897477092396934461}
+  - component: {fileID: 6698806381430136420}
   - component: {fileID: 7213108721883189563}
   m_Layer: 0
   m_Name: 1stSkibiditoilet
@@ -111,21 +111,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &6698806381430136420
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4890157684890329558}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa6e799c98e9b2044960427870d968d5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  managerPosition: {fileID: 0}
-  toiletPrice: 50
-  speed: 22
 --- !u!50 &1304923839224790789
 Rigidbody2D:
   serializedVersion: 4
@@ -198,6 +183,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.14, y: 0.36}
   m_EdgeRadius: 0
+--- !u!114 &6698806381430136420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4890157684890329558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa6e799c98e9b2044960427870d968d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  managerPosition: {fileID: 0}
+  toiletPrice: 50
+  speed: 22
 --- !u!114 &7213108721883189563
 MonoBehaviour:
   m_ObjectHideFlags: 0
