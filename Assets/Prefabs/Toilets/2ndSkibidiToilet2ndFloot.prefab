@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6540286351144908543}
   - component: {fileID: 1931485200770291058}
   - component: {fileID: 4958211552070465867}
+  - component: {fileID: 4771044146346063269}
   - component: {fileID: 6943805134276328774}
   - component: {fileID: 7942364182718112009}
   - component: {fileID: 4695815204390817442}
@@ -29,7 +30,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2494195273555597282}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.2, y: 0.612, z: 0}
   m_LocalScale: {x: 4, y: 4.2, z: 5}
   m_ConstrainProportionsScale: 0
@@ -101,9 +102,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa6e799c98e9b2044960427870d968d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  managerPosition: {fileID: 0}
   toiletPrice: 37500
+  managerPosition: {fileID: 0}
   speed: 22
+  sound: {fileID: 0}
+--- !u!114 &4771044146346063269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2494195273555597282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07ad2f3bccb863f43868d8409cb25e9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteRenderer: {fileID: 5594767066524024562}
 --- !u!50 &6943805134276328774
 Rigidbody2D:
   serializedVersion: 4
@@ -207,7 +222,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7445871257147227363}
   - component: {fileID: 5594767066524024562}
-  - component: {fileID: 9137357267087145755}
   m_Layer: 0
   m_Name: Gun
   m_TagString: Untagged
@@ -282,16 +296,3 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &9137357267087145755
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3249247930052355012}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 07ad2f3bccb863f43868d8409cb25e9c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spriteRenderer: {fileID: 5594767066524024562}
