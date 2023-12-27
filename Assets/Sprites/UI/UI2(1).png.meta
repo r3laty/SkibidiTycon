@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 39667b4e23315fe4b8d5fdc6a17b1744
+guid: 1324e0839d4f8c94c845446ba039c61e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -136,43 +136,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Button
+      name: UI2(1)_0
       rect:
         serializedVersion: 2
-        x: 81
-        y: 37
-        width: 30
-        height: 10
+        x: 0
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 705a563fb0bddaa4787339203394e8c0
-      internalID: 864497048
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Note
-      rect:
-        serializedVersion: 2
-        x: 66
-        y: 50
-        width: 28
-        height: 28
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ac46bc854f54ba64393eafa30aa918bf
-      internalID: 241427433
+      spriteID: 796b90916f2ccf440a677a0fe8243c83
+      internalID: -54567349
       vertices: []
       indices: 
       edges: []
@@ -188,8 +167,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Button: 864497048
-      Note: 241427433
+      UI2(1)_0: -54567349
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
