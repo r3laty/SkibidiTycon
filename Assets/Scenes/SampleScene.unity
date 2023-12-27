@@ -20160,8 +20160,8 @@ GameObject:
   - component: {fileID: 1383982637}
   - component: {fileID: 1383982638}
   - component: {fileID: 1383982639}
-  - component: {fileID: 1383982640}
   - component: {fileID: 1383982641}
+  - component: {fileID: 1383982640}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged

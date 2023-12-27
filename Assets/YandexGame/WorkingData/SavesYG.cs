@@ -1,4 +1,6 @@
 ﻿
+using UnityEngine;
+
 namespace YG
 {
     [System.Serializable]
@@ -18,7 +20,12 @@ namespace YG
 
         // Ваши сохранения
 
-        // ...
+        public int SkibidiMoney;
+        public Sprite NewYearSkin;
+        public Sprite FloorSkin;
+        public Sprite CurrentGun;
+        public Sprite CurrentSkin;
+
 
         // Поля (сохранения) можно удалять и создавать новые. При обновлении игры сохранения ломаться не должны
 
