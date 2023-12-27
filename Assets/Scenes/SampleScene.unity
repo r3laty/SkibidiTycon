@@ -1880,8 +1880,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1383982637}
-        m_TargetAssemblyTypeName: SkinControll, Assembly-CSharp
+      - m_Target: {fileID: 1383982641}
+        m_TargetAssemblyTypeName: NewYearSkinControll, Assembly-CSharp
         m_MethodName: SetSkin
         m_Mode: 3
         m_Arguments:
@@ -1899,7 +1899,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 150
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2491,7 +2491,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: <color=#ffe000>2300</color><color=#02c405>$</color>
+  m_text: <color=#ffe000>0</color><color=#02c405>$</color>
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2792,8 +2792,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1383982637}
-        m_TargetAssemblyTypeName: SkinControll, Assembly-CSharp
+      - m_Target: {fileID: 1383982641}
+        m_TargetAssemblyTypeName: NewYearSkinControll, Assembly-CSharp
         m_MethodName: SetSkin
         m_Mode: 3
         m_Arguments:
@@ -2811,7 +2811,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 500
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -3281,7 +3281,7 @@ GameObject:
   - component: {fileID: 203879710}
   - component: {fileID: 203879709}
   m_Layer: 5
-  m_Name: CheckmarkBlue
+  m_Name: Checkmark4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5715,8 +5715,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1383982637}
-        m_TargetAssemblyTypeName: SkinControll, Assembly-CSharp
+      - m_Target: {fileID: 1383982641}
+        m_TargetAssemblyTypeName: NewYearSkinControll, Assembly-CSharp
         m_MethodName: SetSkin
         m_Mode: 3
         m_Arguments:
@@ -5734,7 +5734,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 7500
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -6081,7 +6081,7 @@ GameObject:
   - component: {fileID: 386139821}
   - component: {fileID: 386139820}
   m_Layer: 5
-  m_Name: BlueAmogusSkin2
+  m_Name: PurpleAmogusSkin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6368,7 +6368,7 @@ GameObject:
   - component: {fileID: 398816164}
   - component: {fileID: 398816163}
   m_Layer: 5
-  m_Name: BlueAmogusSkin3
+  m_Name: GreenAmogusSkin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6446,7 +6446,7 @@ GameObject:
   - component: {fileID: 399986931}
   - component: {fileID: 399986930}
   m_Layer: 5
-  m_Name: CheckmarkRed2
+  m_Name: Checkmark2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7188,6 +7188,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 435876785}
   m_CullTransparentMesh: 1
+--- !u!212 &459740664 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 1123090518864075652, guid: c0e40ba632b6a934f89fee478eedb232, type: 3}
+  m_PrefabInstance: {fileID: 862044916}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &465269585
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7274,7 +7279,7 @@ GameObject:
   - component: {fileID: 471525252}
   - component: {fileID: 471525251}
   m_Layer: 5
-  m_Name: CheckmarkRed3
+  m_Name: Checkmark3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10766,14 +10771,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1150195963, guid: b8e4b0df93801ad4f8947a97f4802334, type: 3}
+  m_Sprite: {fileID: 59532983, guid: b8e4b0df93801ad4f8947a97f4802334, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -13216,7 +13221,7 @@ GameObject:
   - component: {fileID: 859133790}
   - component: {fileID: 859133789}
   m_Layer: 5
-  m_Name: RedAmogusSkin2
+  m_Name: YellowAmogusSkin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13797,7 +13802,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 526168001, guid: c133c3b68cb9dd34a88b0a6f5dbfa986, type: 3}
+  m_Sprite: {fileID: 1472982387, guid: c133c3b68cb9dd34a88b0a6f5dbfa986, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -13943,6 +13948,11 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!212 &929459781 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 890870252212794654, guid: 6979da47c2648504a9e655b4f96ad8f6, type: 3}
+  m_PrefabInstance: {fileID: 1439009253}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &930042205
 GameObject:
   m_ObjectHideFlags: 0
@@ -14028,6 +14038,57 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 2621458905140343600, guid: 23a489996ee1d4548a4058bb7573c771, type: 3}
   m_PrefabInstance: {fileID: 4340257073452258108}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &950640755
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 950640757}
+  - component: {fileID: 950640756}
+  m_Layer: 0
+  m_Name: NewYearSkinsManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &950640756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 950640755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfa6f085ab0cc7c4b9ba167d8a2bfbcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allSpriteRenderersOfAmogus:
+  - {fileID: 459740664}
+  - {fileID: 1006307282}
+  - {fileID: 1437467070}
+  - {fileID: 2067662667}
+  - {fileID: 929459781}
+  - {fileID: 1773545212}
+--- !u!4 &950640757
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 950640755}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &953441409
 GameObject:
   m_ObjectHideFlags: 0
@@ -14085,7 +14146,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: <color=#ffe000>150</color><color=#02c405>$</color>
+  m_text: <color=#ffe000>0</color><color=#02c405>$</color>
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -14548,8 +14609,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1383982637}
-        m_TargetAssemblyTypeName: SkinControll, Assembly-CSharp
+      - m_Target: {fileID: 1383982641}
+        m_TargetAssemblyTypeName: NewYearSkinControll, Assembly-CSharp
         m_MethodName: SetSkin
         m_Mode: 3
         m_Arguments:
@@ -14567,7 +14628,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 10500
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -15167,6 +15228,11 @@ MonoBehaviour:
   colorOfAmogus: 4
   colorIndex: 1
   source: {fileID: 1205585600}
+--- !u!212 &1006307282 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 7408742212095139661, guid: 852c79cf65b216e44a9dfc2078f935c3, type: 3}
+  m_PrefabInstance: {fileID: 1411820212}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1014245887
 GameObject:
   m_ObjectHideFlags: 0
@@ -16599,14 +16665,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1150195963, guid: b8e4b0df93801ad4f8947a97f4802334, type: 3}
+  m_Sprite: {fileID: -1251720689, guid: b8e4b0df93801ad4f8947a97f4802334, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -18317,7 +18383,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -12469551, guid: b8e4b0df93801ad4f8947a97f4802334, type: 3}
+  m_Sprite: {fileID: -1135248802, guid: b8e4b0df93801ad4f8947a97f4802334, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -20095,6 +20161,7 @@ GameObject:
   - component: {fileID: 1383982638}
   - component: {fileID: 1383982639}
   - component: {fileID: 1383982640}
+  - component: {fileID: 1383982641}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -20243,6 +20310,26 @@ MonoBehaviour:
   shopButton: {fileID: 2101548136}
   shopPrice: 1000
   sound: {fileID: 854690315}
+--- !u!114 &1383982641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1383982633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9205b270982c395428bca3be687fb521, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentSkin: {fileID: 0}
+  skinSprite:
+  - {fileID: 526168001, guid: c133c3b68cb9dd34a88b0a6f5dbfa986, type: 3}
+  - {fileID: -862454200, guid: c133c3b68cb9dd34a88b0a6f5dbfa986, type: 3}
+  - {fileID: -203711007, guid: c133c3b68cb9dd34a88b0a6f5dbfa986, type: 3}
+  - {fileID: 1472982387, guid: c133c3b68cb9dd34a88b0a6f5dbfa986, type: 3}
+  - {fileID: -1272424795, guid: c133c3b68cb9dd34a88b0a6f5dbfa986, type: 3}
+  - {fileID: -955257929, guid: c133c3b68cb9dd34a88b0a6f5dbfa986, type: 3}
 --- !u!1 &1387016798
 GameObject:
   m_ObjectHideFlags: 0
@@ -20818,6 +20905,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1431600404}
   m_CullTransparentMesh: 1
+--- !u!212 &1437467070 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 8273832539178762963, guid: d2d125eb5ae0fa046ade6f9bf4fd367d, type: 3}
+  m_PrefabInstance: {fileID: 51687418}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1439009253
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20904,7 +20996,7 @@ GameObject:
   - component: {fileID: 1439851401}
   - component: {fileID: 1439851400}
   m_Layer: 5
-  m_Name: CheckmarkBlue2
+  m_Name: Checkmark5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21182,7 +21274,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: <color=#ffe000>4500</color><color=#02c405>$</color>
+  m_text: <color=#ffe000>0</color><color=#02c405>$</color>
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -21641,8 +21733,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1383982637}
-        m_TargetAssemblyTypeName: SkinControll, Assembly-CSharp
+      - m_Target: {fileID: 1383982641}
+        m_TargetAssemblyTypeName: NewYearSkinControll, Assembly-CSharp
         m_MethodName: SetSkin
         m_Mode: 3
         m_Arguments:
@@ -21660,7 +21752,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2300
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -22594,7 +22686,7 @@ GameObject:
   - component: {fileID: 1555733351}
   - component: {fileID: 1555733350}
   m_Layer: 5
-  m_Name: CheckmarkRed
+  m_Name: Checkmark1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24056,7 +24148,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -862454200, guid: c133c3b68cb9dd34a88b0a6f5dbfa986, type: 3}
+  m_Sprite: {fileID: 526168001, guid: c133c3b68cb9dd34a88b0a6f5dbfa986, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -24323,7 +24415,7 @@ GameObject:
   - component: {fileID: 1708877116}
   - component: {fileID: 1708877115}
   m_Layer: 5
-  m_Name: RedAmogusSkin3
+  m_Name: RedAmogusSkin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24788,7 +24880,7 @@ GameObject:
   - component: {fileID: 1743876295}
   - component: {fileID: 1743876294}
   m_Layer: 5
-  m_Name: RedAmogusSkin
+  m_Name: WhiteAmogusSkin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25096,7 +25188,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: <color=#ffe000>7500</color><color=#02c405>$</color>
+  m_text: <color=#ffe000>0</color><color=#02c405>$</color>
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -25248,6 +25340,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1768304652}
   m_CullTransparentMesh: 1
+--- !u!212 &1773545212 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 27653174559577731, guid: 92f08d09e2a44a640a6f85aa8385ab24, type: 3}
+  m_PrefabInstance: {fileID: 989399047}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1786937843
 GameObject:
   m_ObjectHideFlags: 0
@@ -25712,7 +25809,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: <color=#ffe000>500</color><color=#02c405>$</color>
+  m_text: <color=#ffe000>0</color><color=#02c405>$</color>
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -26523,7 +26620,7 @@ GameObject:
   - component: {fileID: 1889870083}
   - component: {fileID: 1889870082}
   m_Layer: 5
-  m_Name: CheckmarkBlue3
+  m_Name: Checkmark6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27261,8 +27358,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1383982637}
-        m_TargetAssemblyTypeName: SkinControll, Assembly-CSharp
+      - m_Target: {fileID: 1383982641}
+        m_TargetAssemblyTypeName: NewYearSkinControll, Assembly-CSharp
         m_MethodName: SetSkin
         m_Mode: 3
         m_Arguments:
@@ -27280,7 +27377,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 4500
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -28729,7 +28826,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1472982387, guid: c133c3b68cb9dd34a88b0a6f5dbfa986, type: 3}
+  m_Sprite: {fileID: -862454200, guid: c133c3b68cb9dd34a88b0a6f5dbfa986, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -29639,6 +29736,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2050605020}
   m_CullTransparentMesh: 1
+--- !u!212 &2067662667 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 1350923847652949265, guid: f6fc11a311fc3a444a9d6beab22c967a, type: 3}
+  m_PrefabInstance: {fileID: 160768252}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2070127039
 GameObject:
   m_ObjectHideFlags: 0
@@ -30046,7 +30148,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: <color=#ffe000>10500</color><color=#02c405>$</color>
+  m_text: <color=#ffe000>0</color><color=#02c405>$</color>
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -30496,7 +30598,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -12469551, guid: b8e4b0df93801ad4f8947a97f4802334, type: 3}
+  m_Sprite: {fileID: 387310271, guid: b8e4b0df93801ad4f8947a97f4802334, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -37819,6 +37921,7 @@ CanvasRenderer:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 950640757}
   - {fileID: 1468814260}
   - {fileID: 1686753441}
   - {fileID: 625920304}

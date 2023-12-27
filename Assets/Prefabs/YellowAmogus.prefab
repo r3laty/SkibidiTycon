@@ -153,7 +153,7 @@ GameObject:
   - component: {fileID: 9024466505162682772}
   - component: {fileID: 890870252212794654}
   m_Layer: 0
-  m_Name: Skin
+  m_Name: YellowSkin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

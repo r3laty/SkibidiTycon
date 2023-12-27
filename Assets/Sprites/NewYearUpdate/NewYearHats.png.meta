@@ -136,7 +136,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: NewYearHats_24
+      name: GreenHat
       rect:
         serializedVersion: 2
         x: 0
@@ -144,7 +144,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -157,7 +157,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewYearHats_25
+      name: RedHat
       rect:
         serializedVersion: 2
         x: 32
@@ -165,7 +165,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -178,7 +178,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewYearHats_26
+      name: SantaKlaus
       rect:
         serializedVersion: 2
         x: 64
@@ -186,7 +186,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -199,7 +199,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewYearHats_27
+      name: Deer
       rect:
         serializedVersion: 2
         x: 96
@@ -207,7 +207,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -220,7 +220,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewYearHats_28
+      name: Gerland
       rect:
         serializedVersion: 2
         x: 128
@@ -228,7 +228,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -241,7 +241,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewYearHats_29
+      name: NewYearToy
       rect:
         serializedVersion: 2
         x: 160
@@ -249,7 +249,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -272,6 +272,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      Deer: 526168001
+      Gerland: -1272424795
+      GreenHat: -862454200
       NewYearHats_0: -1728163006
       NewYearHats_1: -1375391234
       NewYearHats_10: -912085281
@@ -284,17 +287,10 @@ TextureImporter:
       NewYearHats_17: -1119195843
       NewYearHats_18: 1377371521
       NewYearHats_19: -1254222533
-      NewYearHats_2: 1161578591
       NewYearHats_20: -795152183
       NewYearHats_21: -1947738017
       NewYearHats_22: -1357139484
       NewYearHats_23: -506314894
-      NewYearHats_24: -862454200
-      NewYearHats_25: 1472982387
-      NewYearHats_26: -203711007
-      NewYearHats_27: 526168001
-      NewYearHats_28: -1272424795
-      NewYearHats_29: -955257929
       NewYearHats_3: -2020321186
       NewYearHats_4: -1990350861
       NewYearHats_5: -450627077
@@ -302,6 +298,9 @@ TextureImporter:
       NewYearHats_7: -185360177
       NewYearHats_8: -457803442
       NewYearHats_9: -1524825005
+      NewYearToy: -955257929
+      RedHat: 1472982387
+      SantaKlaus: -203711007
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

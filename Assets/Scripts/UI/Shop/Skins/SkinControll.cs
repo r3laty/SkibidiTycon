@@ -90,7 +90,7 @@ public class SkinControll : MonoBehaviour
                 break;
         }
     }
-    public virtual Sprite SkinItem()
+    public Sprite SkinItem()
     {
         if (currentSkin == null)
         {

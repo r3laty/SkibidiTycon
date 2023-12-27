@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6721297202638709071}
   - component: {fileID: 7408742212095139661}
   m_Layer: 0
-  m_Name: Skin
+  m_Name: BlueSkin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -189,6 +189,7 @@ MonoBehaviour:
   spawnArea: {fileID: 0}
   spawnButton: {fileID: 0}
   prices: d80e00008813000028230000c8320000
+  musicSettings: {fileID: 0}
   distance: -1.33
 --- !u!95 &3803494525521909284
 Animator:
