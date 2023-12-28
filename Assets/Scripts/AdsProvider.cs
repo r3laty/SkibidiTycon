@@ -1,50 +1,71 @@
 using System.Collections;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 using YG;
 
 public class AdsProvider : MonoBehaviour
 {
-    [SerializeField] private float multiplierOfTime = 3;
     [SerializeField] private float effectDuration = 60;
-    [SerializeField] private TextMeshProUGUI adExeption;
-    private float _timerShowAd;
+    [SerializeField] private float timeForRevard = 2;
+    [SerializeField] private Button speedupTimeButton;
+    [SerializeField] private TextMeshProUGUI adTimer;
     private float _fullscreenAdInterval = 60;
+    private void Start()
+    {
+        speedupTimeButton.interactable = false;
+    }
 
+    //private void Update()
+    //{
+    //    _timerShowAd += Time.unscaledDeltaTime;
+    //    if (_timerShowAd <= _fullscreenAdInterval)
+    //    {
+    //        adTimer.gameObject.SetActive(true);
+    //        adTimer.text = $"{(_fullscreenAdInterval - _timerShowAd).ToString("00")} сек.";
+    //    }
+    //    else
+    //    {
+    //        speedupTimeButton.interactable = true;
+    //        adTimer.gameObject.SetActive(false);
+    //    }
+
+    //}
     private void Update()
     {
-        _timerShowAd += Time.unscaledDeltaTime;
+        adTimer.text = $"{(_fullscreenAdInterval - YandexGame.timerShowAd).ToString("00")} сек.";
+        if (YandexGame.timerShowAd >= _fullscreenAdInterval)
+        {
+            speedupTimeButton.interactable = true;
+        }
     }
 
     ///method on button
     public void WatchAdvertisment()
     {
-        if (_timerShowAd >= _fullscreenAdInterval)
+        if (YandexGame.timerShowAd >= _fullscreenAdInterval)
         {
             YG.YandexGame.FullscreenShow();
-            StartCoroutine(multplyTime());
+            StartCoroutine(MultplyTime());
         }
-        else
-        {
-            adExeption.gameObject.SetActive(true);
-            adExeption.text = $"До запроса к показу рекламы в середине игры {(_fullscreenAdInterval - _timerShowAd).ToString("00")} сек.";
-            StartCoroutine(CloseExeption());
-        }
+    }
+    public IEnumerator MultipyTimeRewardTimer()
+    {
+        YandexGame.FullscreenShow();
+        Time.timeScale = timeForRevard;
+        yield return new WaitForSeconds(effectDuration);
+        Time.timeScale = 1;
     }
 
     public void OnExitButtonClick()
     {
-        StopAllCoroutines();
+        speedupTimeButton.interactable = false;
     }
-    private IEnumerator multplyTime()
+    private IEnumerator MultplyTime()
     {
-        Time.timeScale = multiplierOfTime;
+        Time.timeScale = timeForRevard;
+        print("Time scaled");
         yield return new WaitForSeconds(effectDuration);
         Time.timeScale = 1;
-    }
-    private IEnumerator CloseExeption()
-    {
-        yield return new WaitForSeconds(2);
-        adExeption.gameObject.SetActive(false);
     }
 }
